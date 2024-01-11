@@ -12,13 +12,13 @@ from random import random, randint
 def print_result_and_type(f: callable, args: list[int | float], res: int | float) -> None:
     """Print the result and its data type"""
 
-    print(f"result of {f}({args[0]}, {args[1]}) = ({res.__class__}, {res})")
+    print(f"result of {f}({args[0]}, {args[1]}) = ({type(res)}, {res})")
 
 
 def is_type(x: int | float, data_type: float | int) -> bool:
     """Make sure the class of the number matches the type expected"""
 
-    return x.__class__ == data_type
+    return type(x) == data_type
 
 
 def fsum(x: float, y: float) -> float:
