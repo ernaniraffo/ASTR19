@@ -41,7 +41,7 @@ class Wolf:
         print(self)
 
     def __repr__(self) -> str:
-        s =  "Class       : Wolf\n"
+        s = "Class       : Wolf\n"
         s += "Name        : " + str(self.name) + "\n"
         s += "Arms Length : " + str(self.arms_len) + "\n"
         s += "Legs Length : " + str(self.legs_len) + "\n"
@@ -50,7 +50,8 @@ class Wolf:
         s += "Furry       : " + str(self.furry) + "\n"
         return s
 
-    def generate_name(self) -> str:
+    @staticmethod
+    def generate_name() -> str:
         """Generates a random name for the wolf object"""
 
         s = string.ascii_uppercase[randint(0, 25)]
