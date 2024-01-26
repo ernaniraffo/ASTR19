@@ -16,14 +16,13 @@ def print_pronouns():
 
 def print_favorite_movie():
     """Prints my favorite movie"""
-    print("My favorite movie at the moment is Interstellar because I love the science behind the \
-          events of the movie.")
+    print("My favorite movie at the moment is Interstellar because I love the science behind the events of the movie.")
 
 
 def print_favorite_food():
     """Prints my favorite food"""
-    print("I am Brazilian, so it's only right that my favorite food is Brazilian food, which \
-          includes rice and beans, beef strogonoff, and more.")
+    print("I am Brazilian, so it's only right that my favorite food is Brazilian food, which includes rice and beans, "
+          "beef strogonoff, and more.")
 
 
 def main():
