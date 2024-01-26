@@ -65,9 +65,9 @@ def main():
     """Main program"""
 
     my_wolf = Wolf()
-    print(my_wolf)
+    my_wolf.print_info()
     my_other_wolf = Wolf(10, 10, 5, False, False)
-    print(my_other_wolf)
+    my_other_wolf.print_info()
     my_very_random_wolf = Wolf(randint(0, 100),
                                randint(0, 100),
                                randint(0, 50),
